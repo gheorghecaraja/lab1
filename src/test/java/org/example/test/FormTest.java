@@ -30,7 +30,8 @@ public class FormTest {
     @BeforeClass
     public void beforeTest() {
         logger.info("Start beforeTest");
-        driver = Driver.getRemoteDriver();
+        driver = Driver.getRemoteDriver(); 
+        
         driver.manage().window().maximize();
     }
 
